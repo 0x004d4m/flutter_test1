@@ -31,7 +31,7 @@ class Counter with ChangeNotifier, DiagnosticableTreeMixin {
   @override
   void debugFillProperties(DiagnosticPropertiesBuilder properties) {
     super.debugFillProperties(properties);
-    properties.add(IntProperty('count3', count));
+    properties.add(IntProperty('adam', count));
   }
 }
 
